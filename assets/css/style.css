@@ -15,8 +15,8 @@
     box-sizing: border-box;
 }
 
-#header .row div:first-child(){
-    position: absolute;
+#header .row div:first-child{
+    
     top:5px;
     box-sizing: border-box;
 }
@@ -105,7 +105,6 @@
     border-radius: 100px;
     box-shadow: #272727 5px 5px 5px;
     border:1px solid #272727;
-    display:block;
     margin-right:40%;    
 }
 
@@ -123,10 +122,12 @@
 
 @media screen and (max-width:992px){
     .about .row div:first-child img{
-        margin-left:28%;
+        
         width:40%;
         border-radius:200px;
         margin-bottom:10px;
-        text-align: center;
-     }
+        margin-left:30%;
+
+    }
+
 }
