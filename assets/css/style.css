@@ -124,7 +124,7 @@
 @media screen and (max-width:992px){
     .about .row div:first-child img{
         margin-left:30%;
-        width:40%;
+        width:80%;
         border-radius:200px;
         margin-bottom:10px;
      }
